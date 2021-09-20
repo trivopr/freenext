@@ -24,6 +24,6 @@ module.exports = {
   images: {
     domains: ['res.cloudinary.com', 'dummyimage.com'],
     loader: 'imgix',
-    path: 'http://dummyimage.com/',
+    path: 'https://dummyimage.com/',
   },
 };
