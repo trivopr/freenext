@@ -3,10 +3,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 function PostItem({ post }) {
-  const myLoader = ({ src }) => {
-    return `http://dummyimage.com/${src}`;
-  };
-
   return (
     <>
       <div className='col-sm-12 col-md-6 col-lg-3 my-3'>

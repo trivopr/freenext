@@ -5,10 +5,6 @@ import Image from 'next/image';
 
 function PostDetail() {
   const { postDetail, error } = useSelector((state) => state.posts);
-  const myLoader = ({src}) => {
-    return `http://dummyimage.com/${src}`;
-  };
-
     return (
         <Container>
           <h2>{postDetail.title}</h2>
