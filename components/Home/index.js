@@ -1,11 +1,9 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import { useDispatch, useSelector } from 'react-redux';
-import PostItem from '../posts/postItem';
 import PostList from '../posts/PostList';
 
 function Home() {
-  const dispatch = useDispatch();
   const router = useRouter();
   const { postList } = useSelector((state) => state.posts);
 
