@@ -4,14 +4,34 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "devlocal": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "seeder": "node utils/seeder",
+    "export": "next export"
   },
   "dependencies": {
+    "axios": "^0.21.4",
+    "bcryptjs": "^2.4.3",
+    "google-map-react": "^2.1.10",
+    "mongoose": "^6.0.5",
     "next": "11.1.2",
+    "next-absolute-url": "^1.2.2",
+    "next-auth": "^3.29.0",
+    "next-connect": "^0.10.2",
+    "next-redux-wrapper": "^7.0.5",
+    "prettier": "^2.4.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-bootstrap": "^1.6.3",
+    "react-dom": "17.0.2",
+    "react-redux": "^7.2.5",
+    "react-slick": "^0.28.1",
+    "redux": "^4.1.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "sass": "^1.41.0",
+    "validator": "^13.6.0"
   },
   "devDependencies": {
     "eslint": "7.32.0",
